@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Checkout</title>
+  <style>
+    body {
+      font-family:  sans-serif;
+      background-color:white;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 600px;
+      margin: 50px auto;
+      background-color:pink;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    h1 {
+      color:blue;
+    }
+    p {
+      font-size: 18px;
+      color: #555;
+      margin-bottom: 30px;
+    }
+    button {
+      padding: 12px 25px;
+      font-size: 16px;
+      background-color: red;
+      color: purple;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color:yellow;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Checkout Page</h1>
+    <p>Thanks for choosing your mobile case!.</p>
+    <button onclick="goBack()">Back to Products</button>
+  </div>
+
+  <script>
+    function goBack() {
+      window.location.href = "index.html";
+    }
+  </script>
+</body>
+</html>
+
